@@ -1,0 +1,6 @@
+<p><span>% Change 24Hr:</span> {info.changePercent24Hr}</p>
+                        <p>{info.explorer}</p>
+                        <p><span>Market Cap Usd:</span> {info.marketCapUsd}</p>
+                        <p><span>Max Supply:</span> {info.maxSupply}</p>
+                        <p><span>Rank:</span> {info.rank}</p>
+                        <p><span>Supply:</span> {info.supply}</p>
