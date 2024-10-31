@@ -1,0 +1,59 @@
+.body {
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+.coin {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    background-color: #ffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.17);
+}
+
+.coin h2 {
+    background-color: #284989;
+    color: #ffff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.77)
+}
+
+.coin p {
+    margin: 0;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.coin span {
+    font-weight: bold;
+    color: #284989;
+}
+
+.details {
+    
+    border: solid 1px #284989;
+    border-radius: 5px;
+    box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.77);
+    padding: 10px;
+    margin: 10px;
+}
+
+.coin button {
+    background-color: #284989;
+    color: #ffff;
+    font-size: 20px;
+    width: 50%;
+    box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.77);
+    margin: 0 auto;
+    transition: all 0.3s;
+}
+
+.coin button:hover {
+    transform: scale(1.1);
+    transition: all 0.3s;
+    cursor: pointer;
+}

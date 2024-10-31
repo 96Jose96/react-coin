@@ -29,7 +29,7 @@ function Home() {
                             <h2>{info.name}</h2>
                         </Link>
                         <p><span>Symbol:</span> {info.symbol}</p>
-                        <p><span>Price Usd:</span> {info.priceUsd}</p>
+                        <p><span>Price Usd:</span> {info.priceUsd} $</p>
                     </li>
                 ))}
             </ul>
