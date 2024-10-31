@@ -1,8 +1,4 @@
-import { useParams } from "react-router-dom"
-
-async function getCoinsDetails () {
-    const { id } = useParams()
-    
+async function getCoinsDetails (id) {
     try {
         const response = await fetch(`https://api.coincap.io/v2/assets/${id}`)
         const detailsData = await response.json()

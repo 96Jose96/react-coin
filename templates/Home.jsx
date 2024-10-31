@@ -15,6 +15,8 @@ function Home() {
             }
         }
         fetchData()
+        const updateFetchData = setInterval(fetchData, 1000)
+        return () => clearInterval(updateFetchData)
     }, [])
 
 

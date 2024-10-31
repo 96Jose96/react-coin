@@ -1,6 +1,4 @@
-
 import Paths from "../routes/routes"
-
 
 function App() {
     return (
