@@ -19,10 +19,9 @@ function Home() {
         return () => clearInterval(updateFetchData)
     }, [])
 
-
     return (
         <>
-            <h1>Criptomonedas</h1>
+            <h1>Principales Criptomonedas</h1>
             <ul>
                 {coinsInfo.map((info) => (
                     <li key={info.id}>

@@ -1,15 +1,15 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Home from "../templates/Home";
 import Coin from "../templates/Coin";
+import Favorites from "../templates/Favorites";
 
 function Paths() {
     return (
-        <Router>
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/coins/:id" element={<Coin />} />
+                <Route path="/favorites" element={<Favorites />} />
             </Routes>
-        </Router>
     )
 }
 
