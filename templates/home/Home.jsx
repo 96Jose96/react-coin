@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react"
 import { Link } from "react-router-dom"
-import getCoins from "../utils/getCoins"
+import getCoins from "../../utils/getCoins"
+import styles from "./Home.module.css"
 
 function Home() {
     const [coinsInfo, setCoinsInfo] = useState([])
@@ -21,8 +22,7 @@ function Home() {
 
     return (
         <>
-            <h1>Principales Criptomonedas</h1>
-            <ul>
+            <ul className={styles.home}>
                 {coinsInfo.map((info) => (
                     <li key={info.id}>
                         <Link to={`/coins/${info.id}`}>

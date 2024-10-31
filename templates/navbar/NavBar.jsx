@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom";
+import styles from "./NavBar.module.css"
 
 function NavBar() {
     return (
-        <nav>
+        <nav className={styles.navBar}>
             <ul>
                 <li>
                     <Link to={'/'}>Home</Link>
@@ -11,6 +12,7 @@ function NavBar() {
                     <Link to={'/favorites'}>Favorites</Link>
                 </li>
             </ul>
+            <h1>Principales Criptomonedas</h1>
         </nav>
     )
 }

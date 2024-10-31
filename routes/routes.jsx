@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom";
-import Home from "../templates/Home";
+import Home from "../templates/home/Home";
 import Coin from "../templates/Coin";
-import Favorites from "../templates/Favorites";
+import Favorites from "../templates/favorites/Favorites";
 
 function Paths() {
     return (

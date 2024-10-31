@@ -1,0 +1,34 @@
+.favorites {
+    font-size: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.favorites li {
+    list-style: none;
+    font-size: 25px;
+    text-align: center;
+    width: 200px;
+    background-color: #ffff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.17);
+    transition: all 0.3s;
+    text-transform: capitalize;
+}
+
+.favorites a {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    color: #284989;
+    padding: 10px;
+}
+
+.favorites li:hover {
+    background-color: #a7c4ff;
+    transform: scale(1.1);
+    transition: all 0.3s;
+}
